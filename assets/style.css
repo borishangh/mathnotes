@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: serif;
+}
+
+body, html{ height: 100%;}
+
+body{
+    width: min(80vw, 500px);
+    margin: auto;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+main{
+    margin: 20px 0;
+}
+
+p{
+    margin-bottom: 10px;
+}
+
+footer{
+    border-top: 1px solid black;
+    padding: 10px 0 20px;
+}
+
+h1, hr{margin-bottom: 20px;}
+ul, ol{
+    margin-left: 30px;
+}
+li{
+    margin-bottom: 5px;
+}
+
+
+.grey{
+    color: grey;
+    font-style: italic;
+}
