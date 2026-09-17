@@ -42,3 +42,7 @@ li{
     color: grey;
     font-style: italic;
 }
+
+.emph{
+    color: red;
+}
